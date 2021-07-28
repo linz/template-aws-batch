@@ -13,8 +13,16 @@ The configuration of the batch pipeline is done inside `./src/infra/batch.ts` th
 
 ## Usage
 
-To build and deploy
-```
+This repository requires [NodeJs](https://nodejs.org/en/) > 12 & [Yarn](https://yarnpkg.com/en/)
+
+Use [n](https://github.com/tj/n) to manage nodeJs versions
+
+```bash
+# Download the latest nodejs LTS & yarn
+n lts
+npm install -g yarn
+
+# Install node deps
 yarn
 
 # build once
