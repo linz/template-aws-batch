@@ -14,7 +14,7 @@ async function main(): Promise<void> {
 
   // Your logic to determine what to submit
 
-  for (let jobId = 0; jobId < 1; jobId++) {
+  for (let jobId = 0; jobId < 3; jobId++) {
     const res = await batch
       .submitJob({
         jobName: ['Job', correlationId, jobId].join('-'),
@@ -22,7 +22,7 @@ async function main(): Promise<void> {
         jobDefinition: JobDefinitionArn,
         containerOverrides: {
           memory: 128,
-          command: ['Job#' + jobId],
+          command: ['Job' + jobId],
           environment,
         },
       })
@@ -32,4 +32,4 @@ async function main(): Promise<void> {
   }
 }
 
-main();
+main().catch(console.error);
