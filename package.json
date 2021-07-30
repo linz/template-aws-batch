@@ -24,7 +24,8 @@
     "build": "tsc",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "lint": "npx eslint {src/**,*.js}",
-    "test": "echo No tests yet"
+    "test": "echo No tests yet",
+    "submit": "node build/src/infra/submit.js"
   },
   "publishConfig": {
     "access": "public"
