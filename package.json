@@ -11,7 +11,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@aws-cdk/aws-batch": "^1.115.0",
+    "@aws-cdk/aws-batch": "^1.125.0",
     "@aws-cdk/aws-ecs": "^1.115.0",
     "@aws-cdk/core": "^1.115.0",
     "@linzjs/style": "^2.1.5",
