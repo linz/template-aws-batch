@@ -16,7 +16,7 @@
     "@aws-cdk/core": "^1.115.0",
     "@linzjs/style": "^2.1.5",
     "aws-cdk": "^1.115.0",
-    "aws-sdk": "^2.955.0",
+    "aws-sdk": "^2.1023.0",
     "ulid": "^2.3.0",
     "conventional-changelog-cli": "^2.1.1"
   },
