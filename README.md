@@ -1,4 +1,6 @@
-# Template Hello World (Javascript)
+# Template AWS Batch
+
+## Topo has moved to argo workflows for most of it's batch processing [linz/topo-workflows](https://github.com/linz/topo-workflows)
 
 ### _A minimal template for AWS Batch development_
 
